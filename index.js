@@ -30,4 +30,12 @@ class Farm {
     return this.calculateIncomeForAnimals() + this.calculateIncomeForCrops();
   }
 }
+
+// console.log(`
+// ----------------------
+// - Farm: FARM NAME    - Drake's Farm
+// - No. of crops: XX   - ${calculateIncomeForCrops}
+// - No. of animals: YY - ${calculateIncomeForAnimals}
+// - Total income: ZZZ€ - ${calculateIncome}
+// ----------------------`);
 module.exports.Farm = Farm;
