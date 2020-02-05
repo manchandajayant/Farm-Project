@@ -9,5 +9,5 @@ test("The income of a the whole farm with.....", () => {
   farm.addAnimal(new Horse(10));
   farm.addCrop(new Wheat(100));
   farm.addCrop(new Sugarcane(100));
-  expect(farm.calculateIncome()).toBeCloseTo(2756, 1);
+  expect(farm.calculateIncome()).toBeCloseTo(2756.37, 1);
 });

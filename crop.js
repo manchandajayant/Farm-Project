@@ -1,6 +1,6 @@
 class Crop {
   constructor(acres) {
-    console.log("this crop", this.acres);
+    //console.log("this crop", this.acres);
     this.acres = acres;
   }
   getYieldInEuros() {
@@ -32,7 +32,7 @@ class Sugarcane extends Crop {
   }
 
   calculateYield() {
-    console.log("this acres", this.acres);
+    //console.log("this acres", this.acres);
     return Math.pow(this.acres * 2.6, 1.1);
   }
 }
